@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.container-with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5 ); /* Puedes ajustar estos valores según tus preferencias */
+    padding: 20px; /* Añadir un poco de relleno para que la sombra sea más visible */
+    margin: 20px auto; /* Alinear los contenedores al centro */
+}
