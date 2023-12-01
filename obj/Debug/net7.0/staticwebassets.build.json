@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fjg2YqbTbqrzkJv7J+t0slZSuFKbYTXeiDbFcdOnO9o=",
+  "Hash": "A6ROIvTTA1Uy3qGiS95vq/bw0VVP3ejRNUxW4lIDnzg=",
   "Source": "AgenciaViajes",
   "BasePath": "_content/AgenciaViajes",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AgenciaViajes.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\wwwroot\\css\\destinos.css",
+      "SourceId": "AgenciaViajes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\wwwroot\\",
+      "BasePath": "_content/AgenciaViajes",
+      "RelativePath": "css/destinos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\destinos.css"
     },
     {
       "Identity": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\wwwroot\\css\\site.css",

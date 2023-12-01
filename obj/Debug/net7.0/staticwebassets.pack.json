@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AgenciaViajes.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\wwwroot\\css\\destinos.css",
+      "PackagePath": "staticwebassets\\css\\destinos.css"
+    },
+    {
       "Id": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

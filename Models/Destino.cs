@@ -7,5 +7,6 @@
         public string Imagen { get; set; }
         public string Pais { get; set; }
         public string Zona { get; set; }
+        public string Descripcion { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace AgenciaViajes.Data
         {
         }
 
+        public DbSet<Destino> Destinos { get; set; }
 
     }
 }

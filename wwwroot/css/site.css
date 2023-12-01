@@ -23,7 +23,6 @@ body {
 
 
 .container-with-shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5 ); /* Puedes ajustar estos valores según tus preferencias */
-    padding: 20px; /* Añadir un poco de relleno para que la sombra sea más visible */
-    margin: 20px auto; /* Alinear los contenedores al centro */
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5 ); 
+    padding: 20px; 
+    margin: 20px auto; 
