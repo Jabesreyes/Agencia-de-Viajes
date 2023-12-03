@@ -1,4 +1,12 @@
 ﻿<div class="container pt-5">
+    @if (Utils.IsAdmin(Context.Session))
+    {
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <a href="@Url.Action("Agregar", "Destinos")" class="btn btn-dark">Nuevo destino</a>
+            </div>
+        </div>
+    }
     <div class="row">
         @foreach (var destino in Model)
         {
@@ -14,7 +22,10 @@
                                 <p class="card-text">Pais: @destino.Pais</p>
                                 <p class="card-text">Zona: @destino.Zona</p>
                                 <a href="@Url.Action("Details", "Destinos", new { id = destino.DestinoID })" class="btn btn-dark">Ver Detalles</a>
-
+                                @if (Utils.IsAdmin(Context.Session))
+                                {
+                                    <a href="@Url.Action("Editar", "Destinos", new { id = destino.DestinoID })" class="my-2 btn btn-dark">Editar</a>
+                                }
                             </div>
                         </div>
                     </div>

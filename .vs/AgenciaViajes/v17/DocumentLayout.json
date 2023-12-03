@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\controllers\\destinoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:controllers\\destinoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\views\\destinos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:views\\destinos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\views\\destinos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:views\\destinos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\views\\destinos\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:views\\destinos\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|c:\\users\\jabes\\desktop\\das\\agenciaviajes\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56607D96-2BDF-444C-AF3D-73E60461F84D}|AgenciaViajes.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T19:25:58.381Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Registrar.cshtml",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Registrar.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-03T20:39:19.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Destinos\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-03T20:21:40.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Destinos\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-03T19:52:28.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-03T19:37:17.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestinosController.cs",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Controllers\\DestinosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DestinosController.cs",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Controllers\\DestinosController.cs",
+              "RelativeToolTip": "Controllers\\DestinosController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwCUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T19:33:47.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Models\\TipoUsuario.cs",
+              "RelativeDocumentMoniker": "Models\\TipoUsuario.cs",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Models\\TipoUsuario.cs",
+              "RelativeToolTip": "Models\\TipoUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T19:27:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wEwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T16:04:03.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Destino.cs",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Models\\Destino.cs",
+              "RelativeDocumentMoniker": "Models\\Destino.cs",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Models\\Destino.cs",
+              "RelativeToolTip": "Models\\Destino.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T16:14:03.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Agregar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Agregar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinos\\Agregar.cshtml",
+              "ToolTip": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\Views\\Destinos\\Agregar.cshtml",
+              "RelativeToolTip": "Views\\Destinos\\Agregar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-03T20:36:31.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

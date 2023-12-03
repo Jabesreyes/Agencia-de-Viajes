@@ -1,0 +1,29 @@
+﻿<h1 class="display-3 fw-bold text-center">Agregar destino</h1>
+
+<div class="container pt-5">
+    <form action="/Destinos/Agregar" id="form" runat="server" class="form" method="post">
+        <div class="form-group my-2">
+            <label class="block">Nombre:</label>
+            <input type="text" name="nombre" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <label class="block">Imagen:</label>
+            <input type="text" name="imagen" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <label class="block">País:</label>
+            <input type="text" name="pais" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <label class="block">Zona:</label>
+            <input type="text" name="zona" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <label class="block">Descripción:</label>
+            <textarea cols="30" rows="2" name="descripcion"></textarea>
+        </div>
+        <div class="form-group my-2">
+                <input type="submit" value="Agregar" class="form-control btn btn-dark" />
+        </div>
+    </form>
+</div>

@@ -5,7 +5,10 @@ USE Agencia;
 -- Creación de la tabla de Usuarios
 CREATE TABLE Usuarios (
     UsuarioID INT PRIMARY KEY IDENTITY(1,1),
-    Nombre NVARCHAR(50),
+    Nombre NVARCHAR(50) NOT NULL,
+	Email VARCHAR(50) NOT NULL,
+	Password VARCHAR(50) NOT NULL,
+    ListaDestinos VARCHAR(100),
     -- Otros campos según necesidades
 );
 

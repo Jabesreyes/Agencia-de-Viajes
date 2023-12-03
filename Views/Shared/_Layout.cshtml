@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="~/AgenciaViajes.styles.css" asp-append-version="true" />
 </head>
 <body>
+    @{
+        var isLogged = Context.Session.GetString("email") == null ? false : true;
+    }
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -26,12 +29,25 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Destinos" asp-action="Index">¿Dónde voy?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Destinos Aleatorios</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Destinos" asp-action="Aleatorio">Destinos Aleatorios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Ultimas Busquedas</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Destinos" asp-action="UltimasBusquedas">Últimas Búsquedas</a>
                         </li>
-                        
+                        @if (isLogged) {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="Logout">Cerrar Sesión</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="Login">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="Registrar">Registrarse</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-3 fw-bold text-center">Inicia Sesión</h1>
+
+<div class="container pt-5">
+    <form action="/Usuario/Login" id="form" runat="server" class="form" method="post">
+        <div class="form-group my-2">
+            <label class="block">Email:</label>
+            <input type="email" name="email" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <label class="block">Contraseña:</label>
+            <input type="password" name="password" class="form-control" />
+        </div>
+        <div class="form-group my-2">
+            <input type="submit" value="Iniciar Sesión" class="form-control btn btn-dark" />
+        </div>
+    </form>
+</div>

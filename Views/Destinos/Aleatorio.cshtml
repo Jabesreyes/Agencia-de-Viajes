@@ -1,0 +1,25 @@
+﻿<div class="container pt-5">
+    <div class="row">
+        @foreach (var destino in Model)
+        {
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-height: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <img src="@destino.Imagen" class="img-fluid rounded-start" style="max-width: 400px; height: auto;" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">@destino.Nombre</h5>
+                                <p class="card-text">Pais: @destino.Pais</p>
+                                <p class="card-text">Zona: @destino.Zona</p>
+                                <a href="@Url.Action("Details", "Destinos", new { id = destino.DestinoID })" class="btn btn-dark">Ver Detalles</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

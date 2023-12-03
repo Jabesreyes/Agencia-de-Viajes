@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\AgenciaViajes.csproj",
         "projectName": "AgenciaViajes",
         "projectPath": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\AgenciaViajes.csproj",
-        "packagesPath": "C:\\Users\\jabes\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jabes\\Desktop\\DAS\\AgenciaViajes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jabes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +41,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[17.8.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
@@ -64,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,18 +10,36 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgenciaViajes
 build_property.RootNamespace = AgenciaViajes
 build_property.ProjectDir = C:\Users\jabes\Desktop\DAS\AgenciaViajes\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\jabes\Desktop\DAS\AgenciaViajes
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/Agregar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcQWdyZWdhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/Aleatorio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcQWxlYXRvcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Destinos/UltimasBusquedas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcVWx0aW1hc0J1c3F1ZWRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Home/Index.cshtml]
@@ -38,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/Usuario/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jabes/Desktop/DAS/AgenciaViajes/Views/_ViewImports.cshtml]
