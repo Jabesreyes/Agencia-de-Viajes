@@ -3,20 +3,47 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6">
-            <img src="@Model.Imagen" class="img-fluid" >
+            <img src="@Model.destino.Imagen" class="img-fluid" >
         </div>
         <div class="col-md-6">
-            <h2>@Model.Nombre</h2>
+            <h2>@Model.destino.Nombre</h2>
             <p>
-               @Model.Descripcion
+               @Model.destino.Descripcion
             </p>
             <p>
-                <strong>Pais:</strong> @Model.Pais
+                <strong>Pais:</strong> @Model.destino.Pais
             </p>
             <p>
-                <strong>Zona:</strong> @Model.Zona
+                <strong>Zona:</strong> @Model.destino.Zona
             </p>
-            
         </div>
     </div>
+    @if (Utils.IsAdmin(Context.Session))
+    {
+        <div class="row my-2">
+            <div class="col-md-12">
+                <a href="@Url.Action("Agregar", "Actividad", new { id = @Model.destino.DestinoID })" class="btn btn-dark">Agregar actividad</a>
+            </div>
+        </div>
+    }
+    @foreach(var actividad in Model.actividades)
+    {
+    
+        <div class="col-md-6 my-2">
+            <div class="card p-4">
+                <h5>@actividad.Nombre</h5>
+                <p>
+                    @actividad.Dias días
+                </p>
+                <p>
+                    precio: $@actividad.Precio
+                </p>
+                <p>
+                    @actividad.TipoActividad
+                </p>
+            </div>
+        </div>
+    
+    }
+    
 </div>

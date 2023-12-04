@@ -1,5 +1,4 @@
 ﻿--Primera porcion de Codigo sql
-
 CREATE DATABASE Agencia;
 USE Agencia;
 -- Creación de la tabla de Usuarios
@@ -7,7 +6,7 @@ CREATE TABLE Usuarios (
     UsuarioID INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(50) NOT NULL,
 	Email VARCHAR(50) NOT NULL,
-	Password VARCHAR(50) NOT NULL,
+	Password VARCHAR(255) NOT NULL,
     ListaDestinos VARCHAR(100),
     -- Otros campos según necesidades
 );
@@ -87,3 +86,6 @@ VALUES ('Mezquita Azul','https://cdn.inteligenciaviajera.com/wp-content/uploads/
 
 INSERT INTO Destinos (Nombre,Imagen,Pais,Zona,Descripcion)
 VALUES ('','','','','');
+
+INSERT INTO Usuarios (Nombre,Email,Password,ListaDestinos,TipoUsuarioID)
+VALUES ('Admin','admin@mail.com','$2a$11$RAAeg.q237NgO5vQJIZf8.Q9VYD4FuqqPRNnDlPZRXcHOQm3g9Bdm',NULL,3);

@@ -55,8 +55,10 @@ namespace AgenciaViajes.Controllers
             {
                 return NotFound();
             }
+            var actividades = await _context.Actividades.Where(a => a.DestinoID == id).ToListAsync();
 
-            return View(destino);
+
+            return View(new {destino, actividades});
         }
         public async Task<IActionResult> Aleatorio()
         {
