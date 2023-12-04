@@ -63,7 +63,6 @@ C:\Users\jabes\Desktop\DAS\AgenciaViajes\obj\Debug\net7.0\refint\AgenciaViajes.d
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\obj\Debug\net7.0\AgenciaViajes.pdb
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\obj\Debug\net7.0\AgenciaViajes.genruntimeconfig.cache
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\obj\Debug\net7.0\ref\AgenciaViajes.dll
-C:\Users\jabes\Desktop\DAS\AgenciaViajes\obj\Debug\net7.0\AgenciaViajes.sourcelink.json
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\bin\Debug\net7.0\Humanizer.dll
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\jabes\Desktop\DAS\AgenciaViajes\bin\Debug\net7.0\Microsoft.Build.dll
