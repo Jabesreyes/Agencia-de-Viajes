@@ -38,7 +38,7 @@ CREATE TABLE Actividades (
     Nombre NVARCHAR(100),
     Dias INT,
     Precio DECIMAL(10, 2),
-    TipoActividad NVARCHAR(50),
+    TipoActividad NVARCHAR(MAX),
     FOREIGN KEY (DestinoID) REFERENCES Destinos(DestinoID)
 );
 
